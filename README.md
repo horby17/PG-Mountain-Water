@@ -23,3 +23,6 @@ python main.py
 main.py: Main file that initializes the graphical environment and contains the rendering logic.
 programs/vertex.glsl: Vertex shader used to transform vertices.
 programs/fragment.glsl: Fragment shader used to calculate pixel colors.
+
+## If you want to see more about the topic, please enter in the link description
+https://vimeo.com/977333500?share=copy
