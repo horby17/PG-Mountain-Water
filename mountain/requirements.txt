@@ -1,0 +1,9 @@
+assimp==4.1.4
+glfw==2.7.0
+moderngl==5.10.0
+numpy==1.26.1
+pyassimp==5.2.5
+pygame==2.5.2
+PyGLM==2.7.1
+PyOpenGL==3.1.7
+PyOpenGL-accelerate==3.1.7
