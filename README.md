@@ -7,7 +7,7 @@ Make sure you have Python 3.7+ and pip installed on your system.
 ## Instructions to Clone and Run the Project Locally
 
 ### Step 1: Clone the Repository
-horby17/PG-Mountain-Water.git
+https://github.com/horby17/PG-Mountain-Water.git
 
 ### Step 2: Create and Activate a Virtual Environment
 python -m venv venv
