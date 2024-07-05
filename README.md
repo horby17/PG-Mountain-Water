@@ -1,5 +1,23 @@
 # PG-Mountain-Water
 Graphics programming project using OpenGL and ModernGL to create a water and mountain environment.
+## 1. Setup and Initialization (main.py)
+- Initialize Pygame and create an OpenGL context with ModernGL.
+- Load vertex and fragment shaders from GLSL files.
+- Define vertex data for a full-screen quad.
+- Create and bind vertex buffer and vertex array objects.
+- Set up camera attributes including position, front direction, and movement speed.
+## 2. Rendering (main.py)
+- Clear the context and render the vertex array.
+- Update shader uniforms with the current time and camera position.
+- Handle keyboard and mouse inputs to move the camera.
+- Implement mouse movement to adjust camera orientation.
+## 3. Shaders (vertex.glsl)
+- Vertex shader transforms vertex positions from 2D to 4D space.
+## 4. Shaders (fragment.glsl)
+- Fragment shader performs ray marching to render terrain and water.
+- Uses noise functions and fractal Brownian motion (FBM) to generate terrain features.
+- Computes lighting, shadows, and ambient occlusion.
+- Mixes sky and terrain colors based on the ray-marched distance.
 
 ## Prerequisites
 Make sure you have Python 3.7+ and pip installed on your system.
